@@ -1,13 +1,17 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
+using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
+using JsonConverter = Newtonsoft.Json.JsonConverter;
 
 namespace CHEMTECH_API.ENTIDADES
 
 {
-
     public enum SEXO
     {
         M,
@@ -42,6 +46,7 @@ namespace CHEMTECH_API.ENTIDADES
 
         public int CLI_COD { get; set; }
         public string NOME { get; set; }
+
         public SEXO SEXO { get; set; }
         public DateTime DATA_NASCIMENTO { get; set; }
         public int IDADE { get; set; }

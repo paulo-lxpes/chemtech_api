@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PiVHvWlFZRqlE1RLDqdR4dD3/3SO47dFxzCvdANwTIqr3/NJqbxKlg3+fcxK1PRGHYvZz42Nb8xP8tam4/XOVg==",
+  "dgSpecHash": "FiOCt33VfEF7uqKqHyb22ArnyS9bExEZeC0a63Dvoi8Ox0CUGsZgqCqemzkm8KUAwLRMlBhh0h6y613gN9oGbg==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\chemtech_api\\CHEMTECH-API\\CHEMTECH-API.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\pjgbm\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\pjgbm\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\pjgbm\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\pjgbm\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\pjgbm\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "C:\\Users\\pjgbm\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\pjgbm\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

@@ -60,3 +60,4 @@ C:\Projetos\chemtech_api\CHEMTECH-API\obj\Debug\net6.0\refint\CHEMTECH-API.dll
 C:\Projetos\chemtech_api\CHEMTECH-API\obj\Debug\net6.0\CHEMTECH-API.pdb
 C:\Projetos\chemtech_api\CHEMTECH-API\obj\Debug\net6.0\CHEMTECH-API.genruntimeconfig.cache
 C:\Projetos\chemtech_api\CHEMTECH-API\obj\Debug\net6.0\ref\CHEMTECH-API.dll
+C:\Projetos\chemtech_api\CHEMTECH-API\bin\Debug\net6.0\Newtonsoft.Json.dll
