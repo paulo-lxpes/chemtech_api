@@ -1,7 +1,5 @@
 ﻿using Flunt.Notifications;
 using Flunt.Validations;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Converters;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +12,9 @@ namespace CHEMTECH_API.ENTIDADES.ModelViews
     public class CLIENTEVIEW : Notifiable<Notification>
     {
         public string NOME { get; set; }
-        public SEXO SEXO { get; set; }
+
+        [JsonConverter(typeof(JsonStringEnumConverter))]
+        public Sexo SEXO { get; set; }
         public DateTime DATA_NASCIMENTO { get; set; }
         public int IDADE { get; set; }
         public int CID_COD { get; set; }
@@ -37,7 +37,9 @@ namespace CHEMTECH_API.ENTIDADES.ModelViews
     {
         public int CLI_COD { get; set; }
         public string NOME { get; set; }
-        public SEXO SEXO { get; set; }
+
+        [JsonConverter(typeof(JsonStringEnumConverter))]
+        public Sexo SEXO { get; set; }
         public DateTime DATA_NASCIMENTO { get; set; }
         public int IDADE { get; set; }
         public int CID_COD { get; set; }

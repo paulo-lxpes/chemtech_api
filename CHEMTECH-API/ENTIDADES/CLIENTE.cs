@@ -1,53 +1,52 @@
-﻿using Newtonsoft.Json;
-using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Linq;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
-using JsonConverter = Newtonsoft.Json.JsonConverter;
 
 namespace CHEMTECH_API.ENTIDADES
 
 {
-    public enum SEXO
+    [JsonConverter(typeof(JsonStringEnumConverter))]
+    public enum Sexo
     {
         M,
         F
     }
     public class CLIENTE
     {
-        public CLIENTE(int cLI_COD, string nOME)
+        public CLIENTE(int cli_cod, string nome)
         {
-            CLI_COD = cLI_COD;
-            NOME = nOME;
+            CLI_COD = cli_cod;
+            NOME = nome;
         }
 
-        public CLIENTE(string nOME, SEXO sEXO, DateTime dATA_NASCIMENTO, int iDADE, int cID_COD)
+        public CLIENTE(string nome, Sexo sexo, DateTime data_nascimento, int idade, int cid_cod)
         {
-            NOME = nOME;
-            SEXO = sEXO;
-            DATA_NASCIMENTO = dATA_NASCIMENTO;
-            IDADE = iDADE;
-            CID_COD = cID_COD;
+            NOME = nome;
+            SEXO = sexo;
+            DATA_NASCIMENTO = data_nascimento;
+            IDADE = idade;
+            CID_COD = cid_cod;
         }
 
-        public CLIENTE(int cLI_COD, string nOME, SEXO sEXO, DateTime dATA_NASCIMENTO, int iDADE, int cID_COD)
+        public CLIENTE(int cli_cod, string nome, Sexo sexo, DateTime data_nascimento, int idade, int cid_cod)
         {
-            CLI_COD = cLI_COD;
-            NOME = nOME;
-            SEXO = sEXO;
-            DATA_NASCIMENTO = dATA_NASCIMENTO;
-            IDADE = iDADE;
-            CID_COD = cID_COD;
+            CLI_COD = cli_cod;
+            NOME = nome;
+            SEXO = sexo;
+            DATA_NASCIMENTO = data_nascimento;
+            IDADE = idade;
+            CID_COD = cid_cod;
         }
 
         public int CLI_COD { get; set; }
         public string NOME { get; set; }
 
-        public SEXO SEXO { get; set; }
+        [JsonConverter(typeof(JsonStringEnumConverter))]
+        public Sexo SEXO { get; set; }
         public DateTime DATA_NASCIMENTO { get; set; }
         public int IDADE { get; set; }
         public int CID_COD { get; set; }

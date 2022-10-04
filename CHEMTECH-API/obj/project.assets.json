@@ -783,19 +783,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pjgbm\\.nuget\\packages\\": {}
+    "C:\\Users\\paulo.junior\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\chemtech_api\\CHEMTECH-API\\CHEMTECH-API.csproj",
+      "projectUniqueName": "C:\\Users\\paulo.junior\\source\\repos\\CHEMTECH-API\\CHEMTECH-API\\CHEMTECH-API.csproj",
       "projectName": "CHEMTECH-API",
-      "projectPath": "C:\\Projetos\\chemtech_api\\CHEMTECH-API\\CHEMTECH-API.csproj",
-      "packagesPath": "C:\\Users\\pjgbm\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\chemtech_api\\CHEMTECH-API\\obj\\",
+      "projectPath": "C:\\Users\\paulo.junior\\source\\repos\\CHEMTECH-API\\CHEMTECH-API\\CHEMTECH-API.csproj",
+      "packagesPath": "C:\\Users\\paulo.junior\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\paulo.junior\\source\\repos\\CHEMTECH-API\\CHEMTECH-API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\pjgbm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\paulo.junior\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -803,6 +803,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -861,7 +862,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

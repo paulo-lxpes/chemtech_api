@@ -61,3 +61,12 @@ C:\Projetos\chemtech_api\CHEMTECH-API\obj\Debug\net6.0\CHEMTECH-API.pdb
 C:\Projetos\chemtech_api\CHEMTECH-API\obj\Debug\net6.0\CHEMTECH-API.genruntimeconfig.cache
 C:\Projetos\chemtech_api\CHEMTECH-API\obj\Debug\net6.0\ref\CHEMTECH-API.dll
 C:\Projetos\chemtech_api\CHEMTECH-API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\paulo.junior\source\repos\CHEMTECH-API\CHEMTECH-API\bin\Debug\net6.0\Dapper.dll
+C:\Users\paulo.junior\source\repos\CHEMTECH-API\CHEMTECH-API\bin\Debug\net6.0\Flunt.dll
+C:\Users\paulo.junior\source\repos\CHEMTECH-API\CHEMTECH-API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\paulo.junior\source\repos\CHEMTECH-API\CHEMTECH-API\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\paulo.junior\source\repos\CHEMTECH-API\CHEMTECH-API\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\paulo.junior\source\repos\CHEMTECH-API\CHEMTECH-API\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\paulo.junior\source\repos\CHEMTECH-API\CHEMTECH-API\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\paulo.junior\source\repos\CHEMTECH-API\CHEMTECH-API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\paulo.junior\source\repos\CHEMTECH-API\CHEMTECH-API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

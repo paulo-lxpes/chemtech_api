@@ -3,11 +3,11 @@ using Microsoft.AspNetCore.Http.Json;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.Configure<Microsoft.AspNetCore.Http.Json.JsonOptions>(opt =>
+/*builder.Services.Configure<JsonOptions>(opt =>
 {
     opt.SerializerOptions.Converters.Add(new JsonStringEnumConverter());
 });
-
+*/
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
